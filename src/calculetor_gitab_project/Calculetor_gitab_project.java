@@ -20,25 +20,7 @@ import javax.swing.JOptionPane;
           int c=f+g;
           JOptionPane.showMessageDialog(null,"the sum is "+c );
       }
-     public void product(){
-      String a= JOptionPane.showInputDialog("enter the first number");
-          int f=Integer.parseInt(a);
-          String b=JOptionPane.showInputDialog("enter the Second number");
-          int g=Integer.parseInt(b);
-          int c=f/g;
-          JOptionPane.showMessageDialog(null,"the sum is "+c );
-     
-     
-     }
-public void divition(){
-  String a= JOptionPane.showInputDialog("enter the first number");
-          int f=Integer.parseInt(a);
-          String b=JOptionPane.showInputDialog("enter the Second number");
-          int g=Integer.parseInt(b);
-          int c=f+g;
-          JOptionPane.showMessageDialog(null,"the sum is "+c );
     
- }
      
      public static void main(String[] args) {
       Gitab_calculetor Gc=new Gitab_calculetor();
@@ -50,13 +32,13 @@ public void divition(){
       else if(f==2){
       Gc.diference();    
       }
-      else if(f==3){
-      Gc.product();
-      }
-      else if(f==4){
-      Gc.divition();
-      }
-      
+//      else if(f==3){
+//      Gc.product();
+//      }
+//      else if(f==4){
+//      Gc.divition();
+//      }
+//      
       else{
       JOptionPane.showMessageDialog(null,"plese read  insraction");
       }
